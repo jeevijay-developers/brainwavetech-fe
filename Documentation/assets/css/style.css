@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: auto;
+    min-height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    overflow: visible;
+    cursor: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#sidebar {
+    background-color: #f5f7f9;
+    border-right: 2px solid #f6f6f6;
+    overflow: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#doc_wraper {
+    background-color: #ffffff;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px 30px;
+    scroll-behavior: smooth;
+}
+
+#doc_wraper::-webkit-scrollbar {
+    display: none !important;
+}
+
+.sidebar_menu {
+    padding: 20px;
+}
+
+.sidebar_menu ul li {
+    margin: 10px 0px;
+}
+
+.sidebar_menu ul li a {
+    text-decoration: none;
+    color: rgb(22 28 45 / 70%);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sidebar_menu ul li a.active {
+    color: rgb(70 138 255);
+}
+
+/* ===== introduction ====== */
+section {
+    height: auto;
+}
+
+.section_title {
+    font-size: 36px;
+    color: #e83e8c;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#introduction p {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#introduction p strong {
+    color: #333;
+    margin: 0px 7px;
+}
+
+#introduction p a {
+    color: rgb(70 138 255);
+    margin: 0px 5px;
+}
+
+#theme_section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin: 50px 0px;
+}
+
+#theme_section ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 7px 5px;
+}
+
+#theme_section ul li strong {
+    font-size: 18px;
+    color: #2c313a;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#theme_section ul li span {
+    font-weight: 500;
+    color: #555a64;
+    font-size: 18px;
+}
+
+/* ======= end introduction ====== */
+
+/* ======== Folder structure section ======== */
+.dpn_list {
+    margin: 20px 0px;
+}
+
+.dpn_list ul li {
+    display: flex;
+    align-items: top;
+    padding: 7px 0px;
+}
+
+.dpn_list ul li>div {
+    font-size: 18px;
+    color: #e83e8c;
+    margin-right: 10px;
+    font-weight: bold;
+    display: flex;
+}
+
+.dpn_list ul li>div>div {
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+.dpn_list ul li span {
+    font-size: 18px;
+    color: #555a64;
+    font-weight: 500;
+}
+
+#structure p {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#structure p strong {
+    color: #333;
+    margin: 0px 7px;
+}
+
+#structure p a {
+    color: rgb(70 138 255);
+    margin: 0px 5px;
+}
+
+
+/* ======== End folder stucture section ======== */
+
+/* ============ dependency section ======== */
+#dependencies {
+    padding: 50px 0px;
+}
+
+#dependencies>h6 {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.line_one {
+    height: 2px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.075);
+    margin-bottom: 20px;
+}
+
+.dpnc_cards_wraper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.dpnc_card_wraper {
+    padding: 10px;
+}
+
+.dpnc_card {
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    padding: 20px;
+    background-color: #f5f7f9;
+}
+
+.dpnc_card_wraper h4 {
+    font-size: 20px;
+    color: rgb(70 138 255);
+    transition: 0.2s ease-in-out;
+}
+
+.dpnc_card_wraper h4:hover {
+    color: rgb(48 108 213);
+    transition: 0.2 ease-in-out;
+}
+
+.dpnc_card_wraper a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(70 138 255);
+    transition: 0.2s ease-in-out;
+}
+
+.dpnc_card_wraper p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555a64;
+}
+
+.dpnc_card_wraper a:hover {
+    color: rgb(48 108 213);
+    transition: 0.2s ease-in-out;
+}
+
+/* ========== End dependency section ======= */
+
+/* ======== customizing section ======= */
+
+#customizer p {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#customizer p strong {
+    color: #333;
+    margin: 0px 7px;
+}
+
+#customizer p a {
+    color: rgb(70 138 255);
+    margin: 0px 5px;
+}
+
+.img_with_title {
+    width: 80%;
+}
+
+.iwt {
+    padding: 10px 20px;
+    background-color: #333;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.iwt_sub_title {
+    background-color: #f3f3f3;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: #555a64;
+}
+
+.iwt_sub_title a {
+    color: rgb(70 138 255);
+    transition: 0.2s ease-in-out;
+}
+
+.iwt_sub_title a:hover {
+    color: rgb(48 108 213);
+    transition: 0.2s ease-in-out;
+}
+
+.iwt_sub_title strong {
+    margin: 0px 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.img_with_title img {
+    width: 100%;
+}
+
+/* ======== End customizing section ===== */
+
+/* ======= build section start ======= */
+section>p {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px 0px;
+    color: #555a64;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+section>p strong {
+    color: #333;
+    margin: 0px 7px;
+}
+
+section>p a {
+    color: rgb(70 138 255);
+    margin: 0px 5px;
+}
+
+/* ======= End build section ======= */
+
+/* ======= deploy section design ======= */
+#deploy>p>a {
+    color: rgb(70 138 255);
+}
+
+.code_terminal_wraper {
+    padding: 20px;
+    border: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+.code_terminal {
+    background-color: #333;
+    color: #aaa;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* ======= End deploy section desgin ====== */
+
+/* ======= thank your section ======= */
+
+/* ======= End thank your section ==== */
+
+
+/* mouse cursor follower animation */
+#cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: #444;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+#cursor-border {
+    --size: 50px;
+    position: fixed;
+    top: calc(var(--size) / -2);
+    left: calc(var(--size) / -2);
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #444;
+    pointer-events: none;
+    transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
+        height 0.15s ease-out, background-color 0.15s ease-out;
+    z-index: 999;
+}
