@@ -55,7 +55,7 @@ export default function Header({ logo, btn, btnDefault, loginBtn, headerStyle })
                         <div className="row">
                             <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block">
                                 <div className="nav-logo d-flex justify-content-between align-items-center">
-                                    <Link href="#"><img src={`/images/${logo}`} alt="logo" /></Link>
+                                    <Link href="#"><img src={`/images/${logo}`} alt="logo" style={{ width: "10rem !important" }} /></Link>
 
                                     <div className="d-flex align-items-center gap-4">
                                         <div className="mobile-menu d-flex ">
@@ -71,7 +71,7 @@ export default function Header({ logo, btn, btnDefault, loginBtn, headerStyle })
                             <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6 col-xs-6 d-xl-flex justify-content-lg-center">
                                 <nav className="main-nav float-end" ref={navToggle}>
                                     <div className="inner-logo d-xl-none text-center">
-                                        <Link href="/home1"><img src={`/images/${logo}`} alt="logo" /></Link>
+                                        <Link href="/home1"><img src={`/images/${logo}`} alt="logo" className="logo-image" style={{ width: "10rem !important" }} /></Link>
                                     </div>
                                     <ul>
                                         <li className="has-child-menu">

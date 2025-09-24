@@ -17,7 +17,7 @@ export default function Home2() {
                 title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
                 description={"Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."}
             />
-            <Header logo={'logo-v2.png'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
+            <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
             <Hero2 />
             <Features />
             <SingleFeature2 />
