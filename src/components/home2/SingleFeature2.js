@@ -32,7 +32,7 @@ export default function SingleFeature2() {
                                     <span className="d-inline-block position-relative">Reporting <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span>
                                     Brackdown
                                 </h2>
-                                <p className="body-disply-2 pt-3">An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+                                <p className="body-disply-2 pt-3">Gain clarity and control over your productivity with smart tracking, insightful dashboards, and detailed reports designed to help you grow.</p>
                             </div>
 
                             {

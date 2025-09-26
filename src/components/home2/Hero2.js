@@ -16,10 +16,10 @@ export default function Hero2() {
                                 <img src="/images/shapes/hero-two-ball.png" alt="" className="position-absolute end-100 hero-floting-img-one anima-trasform-y-1 d-none d-lg-block" />
                                 <img src="/images/shapes/hero-two-sheet.png" alt="" className="hero-floting-img-two position-absolute end-0 top-50 d-none d-xl-block low-index fadeInUp wow" />
 
-                                <h1 className="text-soft-black">A collaborative  Time <span className="d-inline-block position-relative z-index-1">Tracking <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute bottom-0 start-0 low-index" /></span> that you Need</h1>
-                                <p>An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+                                <h1 className="text-soft-black">Unlock Your <span className="d-inline-block position-relative z-index-1">Mind&apos;s <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute bottom-0 start-0 low-index" /></span> <br />Full Potential</h1>
+                                <p>Discover clarity, focus, and well-being with our Brain Waves Analysis — your first step toward success, balance, and personal growth.</p>
                                 <div className="hero-btn">
-                                    <a href="#" className="btn-fill-pill">Start 14 Days Trial <span></span></a>
+                                    <a href="#" className="btn-fill-pill">Book your Brain Waves Analysis<span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -31,8 +31,8 @@ export default function Hero2() {
             <div className="fun-fact-style-two">
                 <div className="fun-fact-overlay"></div>
                 <div className="fun-fact-bg-wrap">
-                    <div className="container">
-                        <div className="row gy-4">
+                    <div className="d-flex gap-6 flex-wrap justify-content-start" style={{ maxWidth: "1300px", margin: "0 auto" }}>
+                        <div className="row gy-4 justify-content-start" style={{ width: "90%" }}>
                             <SingleCounter counterData={hero2Counter} />
                         </div>
                     </div>

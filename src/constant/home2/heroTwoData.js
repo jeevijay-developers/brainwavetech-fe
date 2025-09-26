@@ -1,18 +1,23 @@
 const hero2Counter = [
     {
         id: 1,
-        count: "15k+",
-        status: "Active user"
+        count: "20+",
+        status: "Professionals using technology"
     },
     {
         id: 2,
-        count: "30k",
-        status: "Total Download"
+        count: "130+",
+        status: "Active team experiences"
     },
     {
         id: 3,
-        count: "10k",
-        status: "Customer"
+        count: "10k+",
+        status: "Individuals trained"
+    },
+    {
+        id: 4,
+        count: "130k+",
+        status: "Data points"
     },
 ]
 

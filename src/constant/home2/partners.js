@@ -1,6 +1,6 @@
 const partnersData = {
     title: "See Our Trusted Partners",
-    p: "Vero homero perfecto mei ut, sonet aperiam an nec. Ni nec dict altera legimu. Me vita de lege ndos expet end is ad. Ex mei omita aliu mi ando",
+    p: "Our clients trust Brainwave Tech to deliver innovative solutions that drive their business forward. We are proud to collaborate with industry leaders and visionary startups alike, building lasting partnerships based on results and reliability.",
     btnTxt: "Get Started",
     images: [
         {

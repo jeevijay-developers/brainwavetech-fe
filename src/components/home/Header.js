@@ -94,15 +94,6 @@ export default function Header({ logo, btn, btnDefault, loginBtn, headerStyle })
                                                 <li><Link href="/service-details">Service Details</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="has-child-menu">
-                                            <a href="#" onClick={() => { return null }}>Blog</a>
-                                            <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                                            <ul className="sub-menu">
-                                                <li><Link href="/blog">Blog Grid</Link></li>
-                                                <li><Link href="/blog-details">blog details</Link></li>
-
-                                            </ul>
-                                        </li>
                                         <li><Link href="/price">Pricing</Link></li>
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>

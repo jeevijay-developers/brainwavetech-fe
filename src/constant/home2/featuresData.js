@@ -1,26 +1,43 @@
 const excellentFeaturesData = [
     {
         id: 1,
-        title: "Preset List of Task",
-        p1: "Make bill payments easily using",
-        p2: "the wallet app",
+        title: "Real-Time Brainwave Mapping",
+        p1: "Get instant insights into your alpha, beta, gamma, delta, and theta patterns for a clear picture of your mental state",
         icon: "/images/Icons/task-list-icon.svg"
     },
     {
         id: 2,
-        title: "Reminder Of Task",
-        p1: "Make bill payments easily using",
-        p2: "the wallet app",
+        title: "Personalized Sound Therapy",
+        p1: " Experience healing frequencies tailored to your unique brainwave profile and emotional needs.",
         icon: "/images/Icons/bell-icon.svg",
         varient: 'bg-varient-1',
     },
     {
         id: 3,
-        title: "Complecation Report",
-        p1: "Make bill payments easily using",
-        p2: "the wallet app",
+        title: "Scientific & Non-Invasive Approach",
+        p1: "Backed by neuroscience, EEG technology, and vibrational medicine—safe, accurate, and proven.",
         icon: "/images/Icons/agenda-icon.svg",
         varient: 'bg-varient-2'
+    },
+    {
+        id: 4,
+        title: "Actionable Wellness Insights",
+        p1: "Receive practical steps to improve focus, sleep, creativity, and emotional resilience based on your brain profile.",
+        icon: "/images/Icons/agenda-icon.svg",
+        varient: 'bg-varient-2'
+    },
+    {
+        id: 5,
+        title: "Trackable Growth & Transformation",
+        p1: "Monitor measurable improvements in clarity, productivity, and emotional balance over time.",
+        icon: "/images/Icons/agenda-icon.svg",
+        varient: 'bg-varient-1'
+    },
+    {
+        id: 6,
+        title: "Expert Guidance & Ongoing Support",
+        p1: "Get professional interpretation of results and continuous support on your mental wellness journey.",
+        icon: "/images/Icons/agenda-icon.svg",
     },
 ]
 
@@ -30,20 +47,20 @@ const singleFeature2 = {
         {
             id: 1,
             title: "Automatic time tracking",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            p: "Effortlessly capture your work hours with real-time tracking—no manual input required.",
             icon: "/images/Icons/tracker-icon.svg"
         },
         {
             id: 2,
             title: "Customizable dashboard",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            p: "Personalize your dashboard to focus on the metrics and insights that matter most to you.",
             icon: "/images/Icons/dashbord-icon.svg",
             varient: "varient-1",
         },
         {
             id: 3,
             title: "Statistics retroactively",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            p: "Access detailed historical data and trends to analyze performance and optimize future goals.",
             icon: "/images/Icons/calendar-icon-2.svg",
             varient: "varient-2",
         },
@@ -59,21 +76,21 @@ const singleFeature3 = {
     features: [
         {
             id: 1,
-            title: "Time Tracking",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            title: "Quick & Non-Invasive Reading",
+            p: "A gentle MEG headset scans your brain activity in just 2 minutes, providing instant results without discomfort.",
             icon: "/images/Icons/min-icon-xl.svg"
         },
         {
             id: 2,
-            title: "Expenses",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            title: "15 Key Mind Parameters",
+            p: "From Alpha, Beta, Gamma waves to Joy, Inner Calm, Creativity, and more—track 15 scientifically validated mental states in a clear, graphical format.",
             icon: "/images/Icons/hourglass-icon-xl.svg",
             varient: "varient-1",
         },
         {
             id: 3,
-            title: "Budget Controlling",
-            p: "Time Tracking is never been easier. Just let the stopwatch run",
+            title: "Personalized Insights for Growth",
+            p: "Identify the areas most important for your life and receive tailored guidance to enhance focus, peace, and overall well-being.",
             icon: "/images/Icons/wallet-icon-xl.svg",
             varient: "varient-2",
         },

@@ -100,12 +100,26 @@ export default function Testimonial3() {
                 className="swiper testimonil-slider-three">
                 <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card-style-three">
-                        <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy.</p>
-                        <h5>Mila McSabbu</h5>
-                        <span>Designer</span>
+                        <p className="body-disply-2">I overcame anxiety and gained the clarity I needed through Brain Waves Analysis. It has truly improved my productivity and focus.</p>
+                        <h5>Priya Sharma</h5>
+                        <span>Marketing Professional</span>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
+                    <div className="testimonial-card-style-three">
+                        <p className="body-disply-2">Real transformation! The brainwave feedback helped me achieve peace of mind and better study focus. I feel more confident than ever.</p>
+                        <h5>Arjun Mehta</h5>
+                        <span>University Student</span>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                    <div className="testimonial-card-style-three">
+                        <p className="body-disply-2">From managing stress to boosting decision-making, Brain Waves Analysis has sharpened my mental clarity and emotional resilience.</p>
+                        <h5> Kavita Iyer</h5>
+                        <span>CEO, Tech Startup</span>
+                    </div>
+                </SwiperSlide>
+                {/* <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card-style-three">
                         <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy.</p>
                         <h5>Mila McSabbu</h5>
@@ -146,21 +160,7 @@ export default function Testimonial3() {
                         <h5>Mila McSabbu</h5>
                         <span>Designer</span>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card-style-three">
-                        <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy.</p>
-                        <h5>Mila McSabbu</h5>
-                        <span>Designer</span>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card-style-three">
-                        <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding and equally humbling. It requires healthy.</p>
-                        <h5>Mila McSabbu</h5>
-                        <span>Designer</span>
-                    </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
 
             <div className="container">

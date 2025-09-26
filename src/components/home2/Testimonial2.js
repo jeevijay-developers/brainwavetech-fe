@@ -38,6 +38,12 @@ export default function Testimonial2() {
                             <div className="avarter-1">
                                 <img src="/images/shapes/testi-thumb-man-1.png" alt="" />
                             </div>
+                            <div className="avarter-1">
+                                <img src="/images/shapes/testi-thumb-man-1.png" alt="" />
+                            </div>
+                            <div className="avarter-1">
+                                <img src="/images/shapes/testi-thumb-man-1.png" alt="" />
+                            </div>
                         </Slider>
                     </div>
                     <div className="col-lg-7 testi-pagination-two">
@@ -50,19 +56,29 @@ export default function Testimonial2() {
                         >
                             <div>
                                 <div className="testimonial-card-style-two px-4">
-                                    <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding</p>
+                                    <p className="body-disply-2">From managing stress to boosting decision-making, Brain Waves Analysis has sharpened my mental clarity and emotional resilience.</p>
                                     <div className="testimonial-card-bottom">
-                                        <h5 className="reviewer-name">Mila McSabbu</h5>
-                                        <span>Designer</span>
+                                        <h5 className="reviewer-name"> Kavita Iyer – CEO, Tech Startup
+                                        </h5>
+                                        <span> CEO, Tech Startup</span>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="testimonial-card-style-two px-4">
-                                    <p className="body-disply-2">Leading an organization is incredibly rewarding and equally humbling. Confidence and humility. Every success is built on lessons from mistakes made is incredibly rewarding</p>
+                                    <p className="body-disply-2">Real transformation! The brainwave feedback helped me achieve peace of mind and better study focus. I feel more confident than ever.</p>
                                     <div className="testimonial-card-bottom">
-                                        <h5 className="reviewer-name">Mila McSabbu</h5>
-                                        <span>Designer</span>
+                                        <h5 className="reviewer-name">Arjun Mehta</h5>
+                                        <span>University Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="testimonial-card-style-two px-4">
+                                    <p className="body-disply-2">I overcame anxiety and gained the clarity I needed through Brain Waves Analysis. It has truly improved my productivity and focus.</p>
+                                    <div className="testimonial-card-bottom">
+                                        <h5 className="reviewer-name">Priya Sharma</h5>
+                                        <span>Marketing Professional</span>
                                     </div>
                                 </div>
                             </div>

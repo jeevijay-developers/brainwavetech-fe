@@ -10,8 +10,8 @@ export default function SingleFeature3() {
                     <div className="col-lg-7">
                         <div className="text-start pb-2">
                             <h2>
-                                How our  <span className="d-inline-block position-relative">Tracker <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span> work for you </h2>
-                            <p className="body-disply-2 pt-3">An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula  </p>
+                                How Brainwave <span className="d-inline-block position-relative">Analytics <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span> work for you </h2>
+                            <p className="body-disply-2 pt-3">In just 2 minutes, our MEG headset captures deep insights into your mental state—helping you understand, improve, and balance your life.</p>
                         </div>
                     </div>
                 </div>
