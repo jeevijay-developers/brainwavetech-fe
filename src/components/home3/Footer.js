@@ -12,7 +12,7 @@ export default function Footer() {
 
                     <ul className="footer-social-links d-flex justify-content-md-end gap-lg-5 gap-4">
                         {
-                            socialIcons.length > 0 && socialIcons.map(icons => <li key={icons.id}><Link href={icons.links}><i className={icons.icon}></i></Link></li>)
+                            socialIcons.length > 0 && socialIcons.map(icons => <li key={icons.id}><a href={icons.links}><i className={icons.icon}></i></a></li>)
                         }
                     </ul>
                 </div>
@@ -40,7 +40,7 @@ export default function Footer() {
 
                                     <ul className="footer-links">
                                         {
-                                            services.length > 0 && services.map(item => <li key={item.id}> <Link href={item.uri}>{item.txt}</Link> </li>)
+                                            services.length > 0 && services.map(item => <li key={item.id}> <a href={item.uri}>{item.txt}</a> </li>)
                                         }
                                     </ul>
                                 </div>
@@ -53,7 +53,7 @@ export default function Footer() {
 
                                     <ul className="footer-links">
                                         {
-                                            about.length > 0 && about.map(item => <li key={item.id}> <Link href={item.uri}>{item.txt}</Link> </li>)
+                                            about.length > 0 && about.map(item => <li key={item.id}> <a href={item.uri}>{item.txt}</a> </li>)
                                         }
                                     </ul>
                                 </div>
@@ -66,7 +66,7 @@ export default function Footer() {
 
                                     <ul className="footer-links">
                                         {
-                                            help.length > 0 && help.map(item => <li key={item.id}> <Link href={item.uri}>{item.txt}</Link> </li>)
+                                            help.length > 0 && help.map(item => <li key={item.id}> <a href={item.uri}>{item.txt}</a> </li>)
                                         }
                                     </ul>
                                 </div>

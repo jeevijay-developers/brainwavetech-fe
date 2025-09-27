@@ -1,4 +1,3 @@
-import Header from "@/components/home/Header";
 import Footer2 from "@/components/home2/Footer2";
 import TeamMember from "@/components/contact/TeamMember";
 import BoardOfAdvisors from "@/components/contact/BoardOfAdvisors";
@@ -7,6 +6,7 @@ import {
   boardOfAdvisorsData,
 } from "@/constant/members/membersData";
 import { NextSeo } from "next-seo";
+import Header from "@/components/home/Header";
 
 const Members = () => {
   return (
@@ -18,14 +18,7 @@ const Members = () => {
         }
       />
       <div className="background-wrap inner-bg">
-        <Header
-          logo={"logo-v2.svg"}
-          btn="btn-fill-pill md-btn"
-          btnDefault={false}
-          loginBtn={"btn-transparent-v2"}
-          headerStyle={"header-style-two"}
-        />
-
+        <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
         {/* Hero Section */}
         <div className="members-hero-wrapper pt-xxl section-gap-xl-bottom position-relative z-index-1">
           <img

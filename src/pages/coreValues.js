@@ -1,8 +1,8 @@
-import Header from "@/components/home/Header";
 import Footer2 from "@/components/home2/Footer2";
 import CoreValuesHero from "@/components/coreValues/CoreValuesHero";
 import CoreValuesSection from "@/components/coreValues/CoreValuesSection";
 import { NextSeo } from "next-seo";
+import Header from "@/components/home/Header";
 
 export default function CoreValues() {
   return (
@@ -14,13 +14,7 @@ export default function CoreValues() {
         }
       />
       <div className="background-wrap inner-bg">
-        <Header
-          logo={"logo-v2.svg"}
-          btn="btn-fill-pill md-btn"
-          btnDefault={false}
-          loginBtn={"btn-transparent-v2"}
-          headerStyle={"header-style-two"}
-        />
+        <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
         <CoreValuesHero />
         <CoreValuesSection />
         <Footer2 />

@@ -65,13 +65,13 @@ export default function Header({
             <div className="row">
               <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 align-items-center d-xl-flex d-lg-block">
                 <div className="nav-logo d-flex justify-content-between align-items-center">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       src={`/images/${logo}`}
                       alt="logo"
                       style={{ width: "10rem !important" }}
                     />
-                  </Link>
+                  </a>
 
                   <div className="d-flex align-items-center gap-4">
                     <div className="mobile-menu d-flex ">
@@ -92,14 +92,14 @@ export default function Header({
               <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6 col-xs-6 d-xl-flex justify-content-lg-center">
                 <nav className="main-nav float-end" ref={navToggle}>
                   <div className="inner-logo d-xl-none text-center">
-                    <Link href="/home1">
+                    <a href="/home1">
                       <img
                         src={`/images/${logo}`}
                         alt="logo"
                         className="logo-image"
                         style={{ width: "10rem !important" }}
                       />
-                    </Link>
+                    </a>
                   </div>
                   <ul>
                     <li className="">
@@ -116,13 +116,13 @@ export default function Header({
                       </i> */}
                       {/* <ul className="sub-menu">
                         <li>
-                          <Link href="/home2">Home</Link>
+                          <a href="/home2">Home</a>
                         </li>
                       </ul> */}
                     </li>
 
                     {/* <li>
-                      <Link href="/about">About Us</Link>
+                      <a href="/about">About Us</a>
                     </li> */}
 
                     <li className="has-child-menu">
@@ -139,30 +139,30 @@ export default function Header({
                       </i>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/about">About Us</Link>
+                          <a href="/about">About Us</a>
                         </li>
                         <li>
-                          <Link href="/missionAndVision">Mission & Vision</Link>
+                          <a href="/missionAndVision">Mission & Vision</a>
                         </li>
                         <li>
-                          <Link href="/coreValues">Core Values</Link>
+                          <a href="/coreValues">Core Values</a>
                         </li>
                         <li>
-                          <Link href="/members">Members</Link>
+                          <a href="/members">Members</a>
                         </li>
                         {/* <li>
-                          <Link href="/about">Research & insights</Link>
+                          <a href="/about">Research & insights</a>
                         </li> */}
                         {/* <li>
-                          <Link href="/about">About Us</Link>
+                          <a href="/about">About Us</a>
                         </li>
                         <li>
-                          <Link href="/about">About Us</Link>
+                          <a href="/about">About Us</a>
                         </li> */}
                       </ul>
                     </li>
 
-                    <li className="has-child-menu">
+                    {/* <li className="has-child-menu">
                       <a
                         href="#"
                         onClick={() => {
@@ -176,18 +176,18 @@ export default function Header({
                       </i>
                       <ul className="sub-menu">
                         <li>
-                          <Link href="/service">Services</Link>
+                          <a href="/service">Services</a>
                         </li>
                         <li>
-                          <Link href="/service-details">Service Details</Link>
+                          <a href="/service-details">Service Details</a>
                         </li>
                       </ul>
+                    </li> */}
+                    <li>
+                      <a href="/price">Pricing</a>
                     </li>
                     <li>
-                      <Link href="/price">Pricing</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Contact Us</Link>
+                      <a href="/contact">Contact Us</a>
                     </li>
                   </ul>
 

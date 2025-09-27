@@ -13,7 +13,7 @@ export default function Price() {
                 description={"Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."}
             />
             <div className='background-wrap inner-bg'>
-                <Header logo={'logo.png'} btn={'btn-outlined-round'} />
+                <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
                 <Pricing spaceTopXl={true} spaceBottomXl={true} />
                 <NewsLetter />
                 <Footer />

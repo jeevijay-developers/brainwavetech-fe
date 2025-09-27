@@ -24,7 +24,7 @@ export default function Footer2() {
                 {menus.length > 0 &&
                   menus.map((item) => (
                     <li key={item.id}>
-                      <Link href={item.links}>{item.txt}</Link>
+                      <a href={item.links}>{item.txt}</a>
                     </li>
                   ))}
               </ul>
@@ -34,9 +34,9 @@ export default function Footer2() {
                 {socialIcons.length > 0 &&
                   socialIcons.map((item) => (
                     <li key={item.id}>
-                      <Link href={item.links}>
+                      <a href={item.links}>
                         <i className={item.icon}></i>
-                      </Link>
+                      </a>
                     </li>
                   ))}
               </ul>
