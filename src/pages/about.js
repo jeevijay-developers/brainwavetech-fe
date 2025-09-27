@@ -21,7 +21,13 @@ export default function About() {
         }
       />
       <div className="background-wrap inner-bg">
-        <Header logo={"logo.png"} btn={"btn-outlined-round"} />
+        <Header
+          logo={"logo-v2.svg"}
+          btn="btn-fill-pill md-btn"
+          btnDefault={false}
+          loginBtn={"btn-transparent-v2"}
+          headerStyle={"header-style-two"}
+        />
         <AboutHero />
         <Experience />
         <Experience2 />

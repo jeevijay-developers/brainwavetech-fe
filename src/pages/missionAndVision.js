@@ -15,7 +15,13 @@ export default function MissionAndVision() {
         }
       />
       <div className="background-wrap inner-bg">
-        <Header logo={"logo.png"} btn={"btn-outlined-round"} />
+        <Header
+          logo={"logo-v2.svg"}
+          btn="btn-fill-pill md-btn"
+          btnDefault={false}
+          loginBtn={"btn-transparent-v2"}
+          headerStyle={"header-style-two"}
+        />
         <MissionVisionHero />
         <VisionSection />
         <MissionSection />
