@@ -4,6 +4,7 @@ import Features from "@/components/home2/Features";
 import Footer2 from "@/components/home2/Footer2";
 import Hero2 from "@/components/home2/Hero2";
 import Partners from "@/components/home2/Partners";
+import PricingSection from "@/components/home2/PricingSection";
 import SimplePrice from "@/components/home2/SimplePrice";
 import SingleFeature2 from "@/components/home2/SingleFeature2";
 import SingleFeature3 from "@/components/home2/SingleFeature3";
@@ -22,10 +23,11 @@ export default function Home2() {
             <Features />
             <SingleFeature2 />
             <SingleFeature3 />
-            <SimplePrice />
+            <PricingSection />
+            {/* <SimplePrice /> */}
             <Partners />
             <Testimonial2 />
-            <AppDownload />
+            {/* <AppDownload /> */}
             <Footer2 />
         </>
     )

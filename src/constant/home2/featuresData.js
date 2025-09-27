@@ -3,7 +3,8 @@ const excellentFeaturesData = [
         id: 1,
         title: "Real-Time Brainwave Mapping",
         p1: "Get instant insights into your alpha, beta, gamma, delta, and theta patterns for a clear picture of your mental state",
-        icon: "/images/Icons/task-list-icon.svg"
+        icon: "/images/Icons/task-list-icon.svg",
+        varient: 'bg-varient-1',
     },
     {
         id: 2,
@@ -17,14 +18,14 @@ const excellentFeaturesData = [
         title: "Scientific & Non-Invasive Approach",
         p1: "Backed by neuroscience, EEG technology, and vibrational medicine—safe, accurate, and proven.",
         icon: "/images/Icons/agenda-icon.svg",
-        varient: 'bg-varient-2'
+        varient: 'bg-varient-1'
     },
     {
         id: 4,
         title: "Actionable Wellness Insights",
         p1: "Receive practical steps to improve focus, sleep, creativity, and emotional resilience based on your brain profile.",
         icon: "/images/Icons/agenda-icon.svg",
-        varient: 'bg-varient-2'
+        varient: 'bg-varient-1'
     },
     {
         id: 5,
@@ -38,6 +39,7 @@ const excellentFeaturesData = [
         title: "Expert Guidance & Ongoing Support",
         p1: "Get professional interpretation of results and continuous support on your mental wellness journey.",
         icon: "/images/Icons/agenda-icon.svg",
+        varient: 'bg-varient-1',
     },
 ]
 
@@ -46,21 +48,21 @@ const singleFeature2 = {
     features: [
         {
             id: 1,
-            title: "Automatic time tracking",
-            p: "Effortlessly capture your work hours with real-time tracking—no manual input required.",
+            title: "Automatic Brain Wave Tracking",
+            p: "Effortlessly capture and record your unique brain wave patterns with advanced technology—no manual input required.",
             icon: "/images/Icons/tracker-icon.svg"
         },
         {
             id: 2,
-            title: "Customizable dashboard",
-            p: "Personalize your dashboard to focus on the metrics and insights that matter most to you.",
+            title: "Customizable Insights Dashboard",
+            p: "Personalize your brain performance dashboard to focus on the areas that matter most—learning, emotional balance, or focus.",
             icon: "/images/Icons/dashbord-icon.svg",
             varient: "varient-1",
         },
         {
             id: 3,
-            title: "Statistics retroactively",
-            p: "Access detailed historical data and trends to analyze performance and optimize future goals.",
+            title: "Historical Brain Data",
+            p: "Access detailed past brain wave activity and trends to analyze performance, track emotional states, and optimize future growth.",
             icon: "/images/Icons/calendar-icon-2.svg",
             varient: "varient-2",
         },

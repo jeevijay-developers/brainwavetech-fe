@@ -28,9 +28,9 @@ export default function SingleFeature2() {
                         <div className="feature-analytics-contents">
                             <div className="text-start">
                                 <h2>
-                                    Analytics &
-                                    <span className="d-inline-block position-relative">Reporting <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span>
-                                    Brackdown
+                                    Brainwave
+                                    <span className="d-inline-block position-relative mx-3"> Analysis <img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span>
+                                    Breakdown
                                 </h2>
                                 <p className="body-disply-2 pt-3">Gain clarity and control over your productivity with smart tracking, insightful dashboards, and detailed reports designed to help you grow.</p>
                             </div>

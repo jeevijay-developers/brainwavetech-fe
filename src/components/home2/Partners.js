@@ -13,8 +13,8 @@ export default function Partners() {
                                 {
                                     images.length > 0 && images.slice(0, 3).map((img, i) => {
                                         return (
-                                            <div key={i} className="single-partner-logo">
-                                                <img src={img.img} alt="" className={`img-fluid ${i !== 0 ? "mt-lg-5 mt-4 wow zoomIn" : ""}`} />
+                                            <div key={i} className="single-partner-logo partner-logo-enhanced">
+                                                <img src={img.img} alt="" className={`partner-img ${i !== 0 ? "mt-lg-5 mt-4 wow zoomIn" : ""}`} />
                                             </div>
                                         )
                                     })
@@ -24,8 +24,8 @@ export default function Partners() {
                                 {
                                     images.length > 0 && images.slice(3).map((img, i) => {
                                         return (
-                                            <div key={i} className="single-partner-logo">
-                                                <img src={img.img} alt="" className={`img-fluid wow zoomIn ${i !== 0 ? "mt-lg-5 mt-4" : ""}`} />
+                                            <div key={i} className="single-partner-logo partner-logo-enhanced">
+                                                <img src={img.img} alt="" className={`partner-img wow zoomIn ${i !== 0 ? "mt-lg-5 mt-4" : ""}`} />
                                             </div>
                                         )
                                     })

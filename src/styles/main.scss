@@ -48,7 +48,7 @@ Last update : 04/19/2022
   --c-white: #ffffff;
 
   --primary-purple: #8976FD;
-  --primary-yellow: #FCA61F;
+  --primary-yellow: #1B3C53;
 
   --c-skyblue: #6DCBFF;
   --c-easter-purple: #C06EF3;
@@ -621,10 +621,10 @@ h5 {
 .btn-transparent-xl {
 
   &.btn-transparent-v2 {
-    color: #FF553E;
+    color: #1B3C53;
 
     &:hover {
-      color: #FF553E;
+      color: #1B3C53;
     }
   }
 
@@ -653,7 +653,7 @@ h5 {
   font-size: 18px;
   color: #FFFFFF;
   padding: 23px 40px;
-  background: #FF553E;
+  background: #1B3C53;
   border-radius: 40px;
   line-height: 28px;
   font-family: var(--ff-poppins);
@@ -669,7 +669,7 @@ h5 {
   span {
     position: absolute;
     width: 40%;
-    background: hsl(7, 100%, 54%);
+    background: #456882;
     border-radius: 34px;
     height: 150px;
     transform: skewX(15deg);
@@ -700,7 +700,7 @@ h5 {
     position: absolute;
     content: "";
     width: 40%;
-    background: hsl(7, 100%, 54%);
+    background: #456882;
     border-radius: 34px;
     height: 150px;
     transform: skewX(15deg);
@@ -715,7 +715,7 @@ h5 {
     position: absolute;
     content: "";
     width: 40%;
-    background: hsl(7, 100%, 54%);
+    background: #456882;
     border-radius: 34px;
     height: 150px;
     transform: skewX(15deg);
@@ -887,17 +887,17 @@ h5 {
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
-  color: #FF553E;
+  color: #1B3C53;
   padding: 23px 40px;
   background: transparent;
   border-radius: 40px;
   line-height: 28px;
-  border: 1px solid #FF553E;
+  border: 1px solid #1B3C53;
   font-family: var(--ff-poppins);
   transition: all .3s;
 
   &:hover {
-    color: #FF553E;
+    color: #1B3C53;
     background: hsl(7, 100%, 90%);
   }
 }
@@ -1448,19 +1448,19 @@ header .header-defult {
     }
 
     &:nth-child(3) {
-      height: 10px;
-      width: 10px;
-      background: #FD4C5C;
-      bottom: 25%;
-      left: 40%;
+  height: 10px;
+  width: 10px;
+  background: #1B3C53;
+  bottom: 25%;
+  left: 40%;
     }
 
     &:nth-child(4) {
-      height: 14px;
-      width: 14px;
-      background: #FD4C5C;
-      bottom: 50%;
-      left: 50%;
+  height: 14px;
+  width: 14px;
+  background: #1B3C53;
+  bottom: 50%;
+  left: 50%;
     }
 
     &:nth-child(5) {
@@ -1720,7 +1720,7 @@ header .header-defult {
   }
 
   &.bg-varient-2 {
-    background: #FA865F;
+    background: #1B3C53;
 
     .feature-icon {
       background: rgba(255, 255, 255, 0.5);
@@ -1728,7 +1728,7 @@ header .header-defult {
   }
 
   &.bg-varient-1 {
-    background: #7562E0;
+    background: #1B3C53;
 
     .feature-icon {
       background: rgba(255, 255, 255, 0.5);
@@ -1839,7 +1839,7 @@ header .header-defult {
 
   &.varient-1 {
     .feature-icon {
-      background: #FE6292;
+      background: #1B3C53;
     }
   }
 
@@ -2806,7 +2806,7 @@ header .header-defult {
 
       &.swiper-pagination-bullet-active {
         width: 36px;
-        background: #FF553E;
+        background: #1B3C53;
         border-radius: 7px;
       }
     }
@@ -3017,15 +3017,15 @@ header .header-defult {
 .download-btn-fill {
   display: inline-flex;
   align-items: center;
-  border: 1px solid #FF553E;
+  border: 1px solid #1B3C53;
   color: #fff;
-  background: #FF553E;
+  background: #1B3C53;
   padding: 10.5px 30px;
   border-radius: 40px;
   transition: all .3s;
 
   &:hover {
-    color: #FF553E;
+    color: #1B3C53;
     background: transparent;
   }
 
@@ -3053,8 +3053,8 @@ header .header-defult {
 .download-btn-outlined {
   display: inline-flex;
   align-items: center;
-  border: 1px solid #FF553E;
-  color: #FF553E;
+  border: 1px solid #1B3C53;
+  color: #1B3C53;
   background: transparent;
   padding: 10.5px 33px;
   border-radius: 40px;
@@ -3062,7 +3062,7 @@ header .header-defult {
 
   &:hover {
     color: #fff;
-    background: #FF553E;
+    background: #1B3C53;
   }
 
   i {
@@ -3156,7 +3156,7 @@ header .header-defult {
         width: 32px;
         left: 4px;
         bottom: 4px;
-        background-color: #FF553E;
+        background-color: #1B3C53;
         -webkit-transition: .4s;
         transition: .4s;
       }
@@ -3169,7 +3169,7 @@ header .header-defult {
 }
 
 .pricing-card-style {
-  border: 1px solid #FF553E;
+  border: 1px solid #1B3C53;
   box-sizing: border-box;
   border-radius: 110px;
   text-align: center;
@@ -3178,7 +3178,7 @@ header .header-defult {
   background: #fff;
 
   &.featured-plan {
-    background: #FF553E;
+    background: #1B3C53;
 
     .card-status {
       color: #fff;
@@ -3206,7 +3206,7 @@ header .header-defult {
 
     .pricing-btn a {
       background: #fff;
-      color: #FF553E;
+      color: #1B3C53;
     }
   }
 
@@ -3269,7 +3269,7 @@ header .header-defult {
       line-height: 28px;
       color: #FFFFFF;
       padding: 22px 40px;
-      background: #FF553E;
+      background: #1B3C53;
       border-radius: 40px;
       display: inline-block;
       transition: all .3s;
@@ -4188,7 +4188,7 @@ Blog wrapper end
 
   &.v2 {
     .feature-icon {
-      background: #FCA61F;
+      background: #1B3C53;
     }
   }
 
@@ -4246,12 +4246,12 @@ About wrapper end
         border-radius: 30px;
         overflow: hidden;
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-radius: 30px;
-        }
+        // img {
+        //   width: 100%;
+        //   height: 100%;
+        //   object-fit: cover;
+        //   border-radius: 30px;
+        // }
       }
 
       .service-slide-overlay {
@@ -4326,10 +4326,10 @@ About wrapper end
       }
     }
 
-    img {
-      width: 100%;
-      transition: all .2s;
-    }
+    // img {
+    //   width: 100%;
+    //   transition: all .2s;
+    // }
 
     .service-porcess-overlay {
       position: absolute;
@@ -4653,7 +4653,7 @@ Slick slider css
     .slick-active {
       width: 36px;
       height: auto;
-      background: #FF553E;
+      background: #1B3C53;
       border-radius: 7px;
       transition: all linear .3s;
       -webkit-transition: all linear .3s;
@@ -4751,11 +4751,11 @@ Service Details Page
     }
 
     &:first-child {
-      height: 14px;
-      width: 14px;
-      background: #FD4C5C;
-      bottom: 35%;
-      left: 6%;
+  height: 14px;
+  width: 14px;
+  background: #1B3C53;
+  bottom: 35%;
+  left: 6%;
     }
 
     &:nth-child(2) {
@@ -4767,19 +4767,19 @@ Service Details Page
     }
 
     &:nth-child(3) {
-      height: 10px;
-      width: 10px;
-      background: #FD4C5C;
-      bottom: 25%;
-      left: 40%;
+  height: 10px;
+  width: 10px;
+  background: #1B3C53;
+  bottom: 25%;
+  left: 40%;
     }
 
     &:nth-child(4) {
-      height: 14px;
-      width: 14px;
-      background: #FD4C5C;
-      bottom: 50%;
-      left: 50%;
+  height: 14px;
+  width: 14px;
+  background: #1B3C53;
+  bottom: 50%;
+  left: 50%;
     }
 
     &:nth-child(5) {
@@ -5032,5 +5032,175 @@ Service Details Page
 
   .preview-hero-area .hero-btns a {
     margin: 0 10px;
+  }
+}
+
+/* Brain Waves Section Custom Styles */
+.brainwave-item {
+  transition: all 0.3s ease;
+  position: relative;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+.hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.brainwave-icon {
+  transition: transform 0.3s ease;
+}
+
+.brainwave-item:hover .brainwave-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Pulse animation for brain wave icons */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.brainwave-icon div {
+  animation: pulse 2s infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .brainwave-item {
+    margin-bottom: 1rem;
+  }
+  
+  .section-title-2 h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Logo Styling Fix */
+.logo-link {
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  width: 8rem;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.mobile-logo-link {
+  display: inline-block;
+}
+
+.mobile-logo-img {
+  width: 10rem;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.nav-logo {
+  width: auto !important;
+  max-width: 100%;
+}
+
+/* Ensure logo container doesn't expand beyond needed */
+@media (max-width: 1199px) {
+  .nav-logo {
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  
+  .logo-img {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    width: 6rem;
+  }
+  
+  .mobile-logo-img {
+    width: 8rem;
+  }
+}
+
+/* Partner Logo Styling for 1:1 Aspect Ratio */
+.partner-logo-enhanced {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.partner-img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+}
+
+.partner-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #1B3C53;
+}
+
+/* Responsive adjustments for partner logos */
+@media (max-width: 1199px) {
+  .partner-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  .partner-img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .partner-logo-enhanced {
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .partner-img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .partner-logo-enhanced {
+    width: 5rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .partner-img {
+    width: 100px;
+    height: 100px;
   }
 }
