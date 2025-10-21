@@ -31,8 +31,8 @@ export default function Hero2() {
             <div className="fun-fact-style-two">
                 <div className="fun-fact-overlay"></div>
                 <div className="fun-fact-bg-wrap">
-                    <div className="d-flex gap-6 flex-wrap justify-content-start" style={{ maxWidth: "1300px", margin: "0 auto" }}>
-                        <div className="row gy-4 justify-content-start" style={{ width: "90%" }}>
+                    <div className="counter d-flex gap-6 flex-wrap justify-content-center" >
+                        <div className="row gy-4 justify-content-center" style={{ width: "90%", maxWidth: "1300px" }}>
                             <SingleCounter counterData={hero2Counter} />
                         </div>
                     </div>

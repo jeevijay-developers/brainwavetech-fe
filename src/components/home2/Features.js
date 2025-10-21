@@ -15,19 +15,19 @@ export default function Features() {
                         </div>
                     </div>
                 </div>
-                <div className="row gy-4">
+                <div className="row gy-4 justify-content-center">
                     <Feature featuresData={excellentFeaturesData} />
                 </div>
                 
                 {/* Brain Waves Categories Section */}
-                <div className="row justify-content-center mt-5 pt-5" style={{ paddingTop: '11rem !important' }}>
+                <div className="row justify-content-center mt-5 pt-5">
                     <div className="col-lg-10">
                         <div className="section-title-2 text-center pb-50">
                             <h3 className="text-soft-black mb-3">Categories & <span className="d-inline-block position-relative">Characteristics<img src="/images/shapes/text-cuntom-underline.svg" alt="" className="highlighter-shape position-absolute start-0 bottom-0 low-index" /></span> of Brain Waves</h3>
                             <p className="body-disply-2 px-lg-4">Understand the different types of brain waves and their unique impact on your mental state, cognitive functions, and overall well-being.</p>
                         </div>
                         <div className="row gy-4">
-                            <div className="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-6 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
                                 <div className="brainwave-item bg-white shadow-sm border-0 rounded-4 p-4 h-100 position-relative overflow-hidden hover-lift">
                                     <div className="brainwave-icon mb-3">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-primary bg-opacity-10 rounded-circle" style={{width: '60px', height: '60px'}}>
@@ -41,7 +41,7 @@ export default function Features() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div className="col-lg-6 col-md-6 col-6" data-aos="fade-up" data-aos-delay="200">
                                 <div className="brainwave-item bg-white shadow-sm border-0 rounded-4 p-4 h-100 position-relative overflow-hidden hover-lift">
                                     <div className="brainwave-icon mb-3">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-success bg-opacity-10 rounded-circle" style={{width: '60px', height: '60px'}}>
@@ -55,7 +55,7 @@ export default function Features() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div className="col-lg-6 col-md-6 col-6" data-aos="fade-up" data-aos-delay="300">
                                 <div className="brainwave-item bg-white shadow-sm border-0 rounded-4 p-4 h-100 position-relative overflow-hidden hover-lift">
                                     <div className="brainwave-icon mb-3">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-warning bg-opacity-10 rounded-circle" style={{width: '60px', height: '60px'}}>
@@ -69,7 +69,7 @@ export default function Features() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <div className="col-lg-6 col-md-6 col-6" data-aos="fade-up" data-aos-delay="400">
                                 <div className="brainwave-item bg-white shadow-sm border-0 rounded-4 p-4 h-100 position-relative overflow-hidden hover-lift">
                                     <div className="brainwave-icon mb-3">
                                         <div className="d-inline-flex align-items-center justify-content-center bg-info bg-opacity-10 rounded-circle" style={{width: '60px', height: '60px'}}>

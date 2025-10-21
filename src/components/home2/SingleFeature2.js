@@ -14,13 +14,13 @@ export default function SingleFeature2() {
                                 <img src="/images/shapes/feature-sheet.png" alt="" />
                             </div>
                             <div className="float-screen-two position-absolute wow fadeInLeft" data-wow-delay="0.3s">
-                                <img src="/images/screen/feature-two-screen-one.png" alt="" className="circle-shadow-two" />
+                                <img src="/images/shapes/hero-two-ball.png" alt="" className="circle-shadow-two" />
                             </div>
-                            <div className="float-screen-three position-absolute wow fadeInRight" data-wow-delay="0.6s">
-                                <img src="/images/screen/feature-two-screen-two.png" alt="" className="circle-shadow-two" />
+                            <div className="float-screen-three position-absolute wow fadeInRight" style={{position: "relative", left:"10rem"}} data-wow-delay="0.6s">
+                                <img src="/images/shapes/sinewave.png" alt="" className="circle-shadow-two" />
                             </div>
                             <div className="float-screen-four position-absolute wow fadeInLeft" data-wow-delay="0.9s">
-                                <img src="/images/screen/feature-two-screen-three.png" alt="" className="circle-shadow-two" />
+                                <img src="/images/shapes/neuron.png" alt="" className="circle-shadow-two" />
                             </div>
                         </div>
                     </div>

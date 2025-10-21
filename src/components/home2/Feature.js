@@ -7,7 +7,7 @@ export default function Feature({ featuresData }) {
                 featuresData.length > 0 && featuresData.map((dt, i) => {
                     const { title, p1, p2, icon, varient } = dt;
                     return (
-                        <div key={i} className="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" >
+                        <div key={i} className="col-lg-4 col-md-6 col-6 wow fadeInUp" >
                             <div className={`feature-card-style-one ${varient}`}>
                                 <div className="feature-icon">
                                     <img src={icon} alt="" />
