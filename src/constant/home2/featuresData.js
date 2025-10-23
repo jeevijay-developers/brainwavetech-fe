@@ -71,9 +71,9 @@ const singleFeature2 = {
 
 const singleFeature3 = {
     graph: {
-        img1: "/images/screen/feature-three-screen-one.png",
-        img2: "/images/screen/feature-three-screen-two.png",
-        img3: "/images/screen/feature-three-screen-three.png",
+        img1: "/images/working/working-img.jpeg",
+        img2: "/images/working/working-image1.jpeg",
+        img3: "/images/working/girl-image.jpeg",
     },
     features: [
         {

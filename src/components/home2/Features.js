@@ -76,6 +76,7 @@ export default function Features() {
                                             <span className="fw-bold text-info fs-5">β</span>
                                         </div>
                                     </div>
+                                    
                                     <h5 className="text-dark fw-bold mb-2">Beta Waves <span className="text-info fs-6">(12–38 Hz)</span></h5>
                                     <p className="text-muted mb-0 lh-base">Intellect, learning, memory, interpretation</p>
                                     <div className="position-absolute top-0 end-0 p-3 opacity-25">
