@@ -15,7 +15,7 @@ export default function CoreValues() {
       />
       <div className="background-wrap inner-bg">
         <Header
-          logo={"logo.png"}
+          logo={"logo-v2.svg"}
           btn="btn-fill-pill md-btn"
           btnDefault={false}
           loginBtn={"btn-transparent-v2"}

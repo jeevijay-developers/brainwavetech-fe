@@ -11,21 +11,23 @@ import { teamMemberData } from "@/constant/contact/contactPageData";
 import { NextSeo } from "next-seo";
 
 export default function BlogDetails() {
-    return (
-        <>
-            <NextSeo
-                title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
-                description={"Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."}
-            />
-            <div className="background-wrap inner-bg">
-                <Header logo={'logo.png'} btn={'btn-outlined-round'} />
-                <BlogTop />
-                <WorkingProcess data={workingProcessData} />
-                <SingleInfoSection data={singleInfoSection} />
-                <TeamMember teamData={teamMemberData} />
-                <NewsLetter spaceTop={true} />
-                <Footer />
-            </div>
-        </>
-    )
+  return (
+    <>
+      <NextSeo
+        title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
+        description={
+          "Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."
+        }
+      />
+      <div className="background-wrap inner-bg">
+        <Header logo={"logo-v2.svg"} btn={"btn-outlined-round"} />
+        <BlogTop />
+        <WorkingProcess data={workingProcessData} />
+        <SingleInfoSection data={singleInfoSection} />
+        <TeamMember teamData={teamMemberData} />
+        <NewsLetter spaceTop={true} />
+        <Footer />
+      </div>
+    </>
+  );
 }

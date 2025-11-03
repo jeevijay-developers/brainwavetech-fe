@@ -12,7 +12,7 @@ export default function Footer2() {
               <div className="footer-icon">
                 <a href="#">
                   <img
-                    src={`/images/logo.png`}
+                    src={`/images/logo-v2.svg`}
                     alt="home page logo on footer"
                     style={{ width: "10rem !important" }}
                   />

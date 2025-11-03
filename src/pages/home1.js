@@ -1,4 +1,4 @@
-import { NextSeo } from 'next-seo';
+import { NextSeo } from "next-seo";
 import Header from "@/components/home/Header";
 import Blogs from "@/components/home1/Blogs";
 import CountryMap from "@/components/home1/CountryMap";
@@ -17,10 +17,12 @@ export default function Home() {
     <>
       <NextSeo
         title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
-        description={"Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."}
+        description={
+          "Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."
+        }
       />
       <div className="background-wrap home-bg-one">
-        <Header logo={'logo.png'} btn="btn-outlined-round" />
+        <Header logo={"logo-v2.svg"} btn="btn-outlined-round" />
         <HeroOne />
         <Fact />
         <WorkProcess />
@@ -34,5 +36,5 @@ export default function Home() {
         <Footer />
       </div>
     </>
-  )
+  );
 }
