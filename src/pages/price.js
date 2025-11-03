@@ -18,7 +18,7 @@ export default function Price() {
       />
       <div className="background-wrap inner-bg">
         <Header
-          logo={"logo-v2.svg"}
+          logo={"logo.png"}
           btn="btn-fill-pill md-btn"
           btnDefault={false}
           loginBtn={"btn-transparent-v2"}

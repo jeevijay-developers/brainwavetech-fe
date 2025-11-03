@@ -23,7 +23,7 @@ export default function Home2() {
         }
       />
       <Header
-        logo={"logo-v2.svg"}
+        logo={"logo.png"}
         btn="btn-fill-pill md-btn"
         btnDefault={false}
         loginBtn={"btn-transparent-v2"}
