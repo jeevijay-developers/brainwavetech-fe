@@ -15,13 +15,21 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
+        title={
+          "Brainwave Tech — Brain Wave Analysis & Customized Sound Therapy"
+        }
         description={
-          "Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."
+          "Brainwave Tech provides cutting-edge brain wave analysis and customized sound therapy using patented BCI technology to measure, understand, and enhance your mental state with over 92% accuracy. Improve focus, relaxation, and wellbeing with personalized neurofeedback and sound programs."
         }
       />
       <div className="background-wrap inner-bg">
-        <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
+        <Header
+          logo={"logo-v2.svg"}
+          btn="btn-fill-pill md-btn"
+          btnDefault={false}
+          loginBtn={"btn-transparent-v2"}
+          headerStyle={"header-style-two"}
+        />
         <AboutHero />
         <Experience />
         <Experience2 />

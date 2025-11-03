@@ -12,23 +12,33 @@ import Testimonial2 from "@/components/home2/Testimonial2";
 import { NextSeo } from "next-seo";
 
 export default function Home2() {
-    return (
-        <>
-            <NextSeo
-                title={"SaaSto - Digital Agency & Multipurpose React Nextjs Template"}
-                description={"Welcome to SaaSto NextJs We are a dynamic web agency specializing in creating visually stunning and highly functional websites. Our team of skilled designers, developers, and marketers work together to bring your online presence to life."}
-            />
-            <Header logo={'logo-v2.svg'} btn="btn-fill-pill md-btn" btnDefault={false} loginBtn={'btn-transparent-v2'} headerStyle={'header-style-two'} />
-            <Hero2 />
-            <Features />
-            <SingleFeature2 />
-            <SingleFeature3 />
-            <PricingSection />
-            {/* <SimplePrice /> */}
-            <Partners />
-            <Testimonial2 />
-            {/* <AppDownload /> */}
-            <Footer2 />
-        </>
-    )
+  return (
+    <>
+      <NextSeo
+        title={
+          "Brainwave Tech — Brain Wave Analysis & Customized Sound Therapy"
+        }
+        description={
+          "Brainwave Tech provides cutting-edge brain wave analysis and customized sound therapy using patented BCI technology to measure, understand, and enhance your mental state with over 92% accuracy. Improve focus, relaxation, and wellbeing with personalized neurofeedback and sound programs."
+        }
+      />
+      <Header
+        logo={"logo-v2.svg"}
+        btn="btn-fill-pill md-btn"
+        btnDefault={false}
+        loginBtn={"btn-transparent-v2"}
+        headerStyle={"header-style-two"}
+      />
+      <Hero2 />
+      <Features />
+      <SingleFeature2 />
+      <SingleFeature3 />
+      <PricingSection />
+      {/* <SimplePrice /> */}
+      <Partners />
+      <Testimonial2 />
+      {/* <AppDownload /> */}
+      <Footer2 />
+    </>
+  );
 }

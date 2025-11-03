@@ -3,7 +3,7 @@ const brainwaveTeamData = [
     id: 1,
     title: "Dr Ankit Gupta",
     designation: "CEO / FOUNDER",
-    img: "/images/team/team-one.png",
+    img: "/images/team/Dr-Ankit-Gupta.png",
     description:
       "Our mission is to transform mental healthcare | Founder @The Brain Seeder | Mental Wellness Coach & Consultant | Brain Wave Analyst | Sound Healer | BNI Member | 10k+ Lives Transformed",
     social: {
@@ -15,7 +15,7 @@ const brainwaveTeamData = [
     id: 2,
     title: "Nitya Gupta",
     designation: "CO FOUNDER",
-    img: "/images/team/team-two.png",
+    img: "/images/team/Nitya-Gupta.png",
     description:
       "Co-founder dedicated to advancing mental wellness through innovative brainwave technology and holistic healing approaches.",
     social: {
@@ -27,7 +27,7 @@ const brainwaveTeamData = [
     id: 3,
     title: "Amruta Shingwekar",
     designation: "Co-Founder",
-    img: "/images/team/team-three.png",
+    img: "/images/team/Amruta-Singhwekar.png",
     description:
       "Co-Founder ezeseed | Co-Founder Brain Waves Tech| Start-up Funding & Investment| BNI | MS Global Finance",
     social: {
