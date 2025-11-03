@@ -18,10 +18,6 @@ const brainwaveTeamData = [
     img: "/images/team/Nitya-Gupta.png",
     description:
       "Co-founder dedicated to advancing mental wellness through innovative brainwave technology and holistic healing approaches.",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-    },
   },
   {
     id: 3,
@@ -42,37 +38,25 @@ const boardOfAdvisorsData = [
     id: 4,
     title: "Francesco Garripoli",
     designation: "Advisor",
-    img: "/images/team/team-one.png",
+    img: "/images/team/Francesco.jpg",
     description:
       "Strategic advisor bringing extensive experience in mental wellness and healthcare innovation.",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-    },
   },
   {
     id: 5,
     title: "Dr Paras Kaul",
     designation: "Advisor",
-    img: "/images/team/team-two.png",
+    img: "/images/team/paras.jpg",
     description:
       "Medical advisor with expertise in neuroscience and brain wave analysis technologies.",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-    },
   },
   {
     id: 6,
     title: "Ms. Paula",
     designation: "Advisor",
-    img: "/images/team/team-three.png",
+    img: "/images/team/paula.jpg",
     description:
       "Business advisor specializing in healthcare technology and strategic partnerships.",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-    },
   },
 ];
 
